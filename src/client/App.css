@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  padding-top: 36px;
+}
+
+.SearchForm-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.RepoList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.RepoList-item{
+  margin-bottom: 24px;
+  width: 18%;
+  opacity: 0.5;
+}
+
+  .RepoList-item:hover{
+    width: 18.5%;
+    opacity: 1;
+  }
